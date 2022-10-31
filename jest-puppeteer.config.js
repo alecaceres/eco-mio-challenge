@@ -7,7 +7,7 @@ module.exports = {
   },
   browserContext: 'default',
   server: {
-    command: `webpack serve --mode none --color --hot --progress --config ./webpack/webpack.test.js`,
+    command: `webpack serve --mode none --color --hot --progress`, // --config ./webpack/webpack.test.js`, // use it if there's a webpack.test.js available
     port: 3000,
     launchTimeout: 25000,
     debug: true,
